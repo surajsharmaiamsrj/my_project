@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,8 +10,10 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="csspage.css">
   <title>Hello, world!</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -67,7 +70,7 @@
   <!-- <div class="container-fluid "> -->
   <!-- <img src="https://source.unsplash.com/1600x700/?business,technology" class="img-fluid" alt="Responsive image"> -->
   <!-- </div> -->
-  <div class="container-fluid">
+  <div class="container-fluid" data-aos="zoom-out-up">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -102,30 +105,24 @@
 
     </center>
     <div class="container row mt-5">
-      <div class="col-lg-4">
-        <img class="rounded-circle"
-          src="johm.jpg"
-          alt="Generic placeholder image" width="140" height="140">
+      <div class="col-lg-4" data-aos="fade-out" data-aos-duration="40000">
+        <img class="rounded-circle" src="image/johm.jpg" alt="Generic placeholder image" width="140" height="140">
         <h2>Matt brandon</h2>
         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
           vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus
           magna.</p>
         <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
       </div>
-      <div class="col-lg-4">
-        <img class="rounded-circle"
-          src="matt.jpg"
-          alt="Generic placeholder image" width="140" height="140">
+      <div class="col-lg-4" data-aos="fade-out" data-aos-duration="40000">
+        <img class="rounded-circle" src="image/matt.jpg" alt="Generic placeholder image" width="140" height="140">
         <h2>John larson</h2>
         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
           vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus
           magna.</p>
         <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
       </div>
-      <div class="col-lg-4">
-        <img class="rounded-circle"
-          src="saul.jpg"
-          alt="Generic placeholder image" width="140" height="140">
+      <div class="col-lg-4" data-aos="fade-out" data-aos-duration="40000">
+        <img class="rounded-circle" src="image/saul.jpg" alt="Generic placeholder image" width="140" height="140">
         <h2>Saul goodman</h2>
         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
           vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus
@@ -134,132 +131,285 @@
       </div>
     </div>
   </div>
-  <!-- Footer -->
-  <div class="container mt-4">
-    <footer class="page-footer font-small indigo">
-
-      <!-- Footer Links -->
-      <div class="container text-center text-md-left">
-
-        <!-- Grid row -->
-        <div class="row">
-
-          <!-- Grid column -->
-          <div class="col-md-3 mx-auto">
-
-            <!-- Links -->
-            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!">Very long link 1</a>
-              </li>
-              <li>
-                <a href="#!">Very long link 2</a>
-              </li>
-              <li>
-                <a href="#!">Very long link 3</a>
-              </li>
-              <li>
-                <a href="#!">Very long link 4</a>
-              </li>
-            </ul>
-
+  <!-- another div -->
+  <!-- its one more card section  
+  
+    <div class="container">
+    
+    <div class="row">
+   <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
+           <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+          <div class="card-img-overlay d-flex flex-column">
+           <div class="card-body">
+              <small class="card-meta mb-2">Thought Leadership</small>
+              <h4 class="card-title mt-0 "><a class="text-white" herf="#">Goverment Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
+             <small><i class="far fa-clock"></i> October 15, 2020</small>
+            </div>
+            <div class="card-footer">
+             <div class="media">
+    <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
+    <div class="media-body">
+      <h6 class="my-0 text-white d-block">Oz COruhlu</h6>
+       <small>Director of UI/UX</small>
+    </div>
+  </div>
+            </div>
           </div>
-          <!-- Grid column -->
-
-          <hr class="clearfix w-100 d-md-none">
-
-          <!-- Grid column -->
-          <div class="col-md-3 mx-auto">
-
-            <!-- Links -->
-            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!">Link 1</a>
-              </li>
-              <li>
-                <a href="#!">Link 2</a>
-              </li>
-              <li>
-                <a href="#!">Link 3</a>
-              </li>
-              <li>
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
-
+        </div></div>
+       <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tree,nature');">
+           <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+          <div class="card-img-overlay d-flex flex-column">
+           <div class="card-body">
+              <small class="card-meta mb-2">Thought Leadership</small>
+              <h4 class="card-title mt-0 "><a class="text-white" herf="#">Goverment Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
+             <small><i class="far fa-clock"></i> October 15, 2020</small>
+            </div>
+            <div class="card-footer">
+             <div class="media">
+    <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
+    <div class="media-body">
+      <h6 class="my-0 text-white d-block">Oz COruhlu</h6>
+       <small>Director of UI/UX</small>
+    </div>
+  </div>
+            </div>
           </div>
-          <!-- Grid column -->
-
-          <hr class="clearfix w-100 d-md-none">
-
-          <!-- Grid column -->
-          <div class="col-md-3 mx-auto">
-
-            <!-- Links -->
-            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!">Link 1</a>
-              </li>
-              <li>
-                <a href="#!">Link 2</a>
-              </li>
-              <li>
-                <a href="#!">Link 3</a>
-              </li>
-              <li>
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
-
+        </div></div>
+    <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?computer,design');">
+           <img class="card-img d-none" src="https://source.unsplash.com/600x900/?computer,design" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+          <div class="card-img-overlay d-flex flex-column">
+           <div class="card-body">
+              <small class="card-meta mb-2">Thought Leadership</small>
+              <h4 class="card-title mt-0 "><a class="text-white" herf="#">Goverment Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
+             <small><i class="far fa-clock"></i> October 15, 2020</small>
+            </div>
+            <div class="card-footer">
+             <div class="media">
+    <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
+    <div class="media-body">
+      <h6 class="my-0 text-white d-block">Oz COruhlu</h6>
+       <small>Director of UI/UX</small>
+    </div>
+  </div>
+            </div>
           </div>
-          <!-- Grid column -->
+        </div></div>
+    
+  </div>
+    
+  </div>
+  
+  
+   Portfolio -->
+  <div class="container">
+    <div class="row">
 
-          <hr class="clearfix w-100 d-md-none">
-
-          <!-- Grid column -->
-          <div class="col-md-3 mx-auto">
-
-            <!-- Links -->
-            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!">Link 1</a>
-              </li>
-              <li>
-                <a href="#!">Link 2</a>
-              </li>
-              <li>
-                <a href="#!">Link 3</a>
-              </li>
-              <li>
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
-
-          </div>
-          <!-- Grid column -->
-
+      <div class="col-md-4 mt-4" data-aos="flip-right">
+        <div class="card mb-6 box-shadow">
+          <img src="https://source.unsplash.com/1600x700/?cmoputer,technology" class="img-fluid" alt="Responsive image">
         </div>
-        <!-- Grid row -->
-
       </div>
-      <!-- Footer Links -->
-
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+      <div class="col-md-4 mt-4" data-aos="flip-right">
+        <div class="card mb-6 box-shadow">
+          <img src="https://source.unsplash.com/1600x700/?car,technology" class="img-fluid" alt="Responsive image">
+        </div>
       </div>
-      <!-- Copyright -->
+      <div class="col-md-4 mt-4" data-aos="flip-right">
+        <div class="card mb-6 box-shadow">
+          <img src="https://source.unsplash.com/1600x700/?metro,technology" class="img-fluid" alt="Responsive image">
+        </div>
+      </div>
+      <div class="col-md-4 mt-4" data-aos="flip-right">
+        <div class="card mb-6 box-shadow">
+          <img src="https://source.unsplash.com/1600x700/?technology" class="img-fluid" alt="Responsive image">
+        </div>
+      </div>
 
+      <div class="col-md-4 mt-4" data-aos="flip-right">
+        <div class="card mb-6 box-shadow">
+          <img src="https://source.unsplash.com/1600x700/?technology,mobile" class="img-fluid" alt="Responsive image">
+        </div>
+      </div>
+      <div class="col-md-4 mt-4" data-aos="flip-right">
+        <div class="card mb-6 box-shadow">
+          <img src="https://source.unsplash.com/1600x700/?weather" class="img-fluid" alt="Responsive image">
+        </div>
+      </div>
+      <div class="col-md-4 mt-4" data-aos="flip-right">
+        <div class="card mb-6 box-shadow">
+          <img src="https://source.unsplash.com/1600x700/?india" class="img-fluid" alt="Responsive image">
+        </div>
+      </div>
+
+      <div class="col-md-4 mt-4" data-aos="flip-right">
+        <div class="card mb-6 box-shadow">
+          <img src="https://source.unsplash.com/1600x700/?technology,jet" class="img-fluid" alt="Responsive image">
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="flip-right">
+        <div class="card mb-6 box-shadow mt-4">
+          <img src="https://source.unsplash.com/1600x700/?business,technology" class="img-fluid" alt="Responsive image">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- from started -->
+  <div class="container" id="divform">
+
+
+    <form class="row g-3 ">
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword4">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label">Address 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">State</label>
+        <select id="inputState" class="form-select">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Check me out
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </div>
+    </form>
+    </span>
+  </div>
+
+  <!-- Footer -->
+  <div class="conntainer mt-4">
+    <footer class="footer-web bg-dark">
+      <div class="footer-content">
+        <div class="footer-box">
+          <div class="footer-item">
+            <h3>Products</h3>
+            <ul>
+              <li><a target="_blank" href="/cloud?home=1">Mockplus Cloud</a></li>
+              <li><a target="_blank" href="/download/mockplus-classic">Mockplus Classic</a></li>
+              <li><a target="_blank" href="/mockplus-ds">Mockplus DS</a></li>
+              <li><a target="_blank" href="/mockplus-rp">Mockplus RP</a></li>
+              <li><a href="/enterprise">Mockplus Enterprise</a></li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <h3>Use Cases</h3>
+            <ul>
+              <li><a href="/free-wireframing-tool?hmsr=freewireframingtool" target="_blank">Free wireframe tool</a></li>
+              <li><a href="/web-prototyping-tool?hmsr=webprototypingtool" target="_blank">Web prototyping</a></li>
+              <li><a href="/app-prototyping-tool?hmsr=appprototypingtool" target="_blank">App prototyping</a></li>
+              <li><a href="/remote-design-collaboration?hmsr=remotedesigncollaboration" target="_blank">Remote
+                  collaboration</a></li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <h3>Resource</h3>
+            <ul class="contact">
+              <li><a href="/product/releaseNotes">New releases</a></li>
+              <li><a href="/features">All features</a></li>
+              <li><a href="/blog">Blog</a></li>
+              <li><a href="/resource">Free materials</a></li>
+              <li><a href="https://help.mockplus.com/p/96">Samples</a></li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <h3>Support</h3>
+            <ul>
+              <li><a href="/about">About us</a></li>
+              <li><a href="/support">Contact us</a></li>
+              <li><a href="/buy/edu">Students＆teachers</a></li>
+              <li><a href="/startup">Mockplus for startup</a></li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <h3>Compare</h3>
+            <ul>
+              <li><a href="/mockplus-vs-invision">InVision</a></li>
+              <li><a href="/mockplus-vs-zeplin">Zeplin</a></li>
+              <li><a href="/mockplus-vs-axure">Axure</a></li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <div class="footer-logo">
+              <a href="/?home=1">
+                <i class="iconfont icon_logo"></i>
+                &nbsp;Mockplus</a>
+            </div>
+            <p><a href="mailto: support@mockplusapp.com" target="_blank">support@mockplusapp.com</a></p>
+            <p class="footer-icon">
+              <span>
+                <a href="https://www.facebook.com/Mockplus" target="_blank">
+                  <i class="iconfont icon_Facebook"></i>
+                </a>
+              </span>
+              <span>
+                <a href="https://twitter.com/Mockplus" target="_blank">
+                  <i class="iconfont icon_Twitter"></i>
+                </a>
+              </span>
+              <span>
+                <a href="https://www.linkedin.com/company/mockplus" target="_blank">
+                  <i class="iconfont icon_LinkedIn"></i>
+                </a>
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="footer-foot">
+          <p class="foot-first">
+            <a href="/privacy">Privacy Policy</a>
+            <a href="/tos">User Agreement</a>
+          </p>
+          <p class="foot-last">© 2014-2021 Mockplus Software Co.,Ltd. All rights reserved.</p>
+        </div>
+        <p class="footer-icon">
+          <span>
+            <a href="https://www.facebook.com/Mockplus" target="_blank">
+              <i class="iconfont icon_Facebook"></i>
+            </a>
+          </span>
+          <span>
+            <a href="https://twitter.com/Mockplus" target="_blank">
+              <i class="iconfont icon_Twitter"></i>
+            </a>
+          </span>
+          <span>
+            <a href="https://www.linkedin.com/company/mockplus" target="_blank">
+              <i class="iconfont icon_LinkedIn"></i>
+            </a>
+          </span>
+        </p>
+      </div>
     </footer>
   </div>
+
   <!-- Footer -->
 
 
@@ -277,6 +427,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
